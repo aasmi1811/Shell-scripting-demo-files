@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo "comment script"
-
 #this is a singleline comment
 
+echo "comment script"
+
+
+#This is a multi-line comment
 
 <<comment
 this is 
