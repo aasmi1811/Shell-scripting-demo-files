@@ -1,0 +1,9 @@
+[ec2-user@ip-172-31-26-175 scripts]$ pwd
+/home/ec2-user/scripts
+[ec2-user@ip-172-31-26-175 scripts]$ basename /home/ec2-user/scripts/names.txt 
+names.txt
+[ec2-user@ip-172-31-26-175 scripts]$ dirname /home/ec2-user/scripts/names.txt
+/home/ec2-user/scripts
+[ec2-user@ip-172-31-26-175 scripts]$ realpath names.txt
+/home/ec2-user/scripts/names.txt
+[ec2-user@ip-172-31-26-175 scripts]$ 
