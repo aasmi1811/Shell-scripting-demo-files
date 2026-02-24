@@ -3,7 +3,8 @@
 #To check connectivity and redirect ping output to /dev/null i.e, void
 
 read -p "which site do you want to check?" site
-ping -c 1 $site > /dev/null
+date >> redirect.txt
+ping -c 1 $site >> redirect.txt
 
 if [[ $? -eq 0 ]]
 then
