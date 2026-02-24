@@ -10,6 +10,6 @@ if [[ $FREERAM -lt $TH ]]
 then
 	echo "WARNING : RAM is running low"
 else
-	echo "RAM is sufficient"
+	echo "RAM is sufficient: $FREERAM M "
 fi
 
